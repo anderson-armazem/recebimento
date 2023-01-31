@@ -6,6 +6,11 @@
 	<link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
 <body>
+	<script>
+		function sucesso(){
+			alert("Salvo com sucesso");
+		}
+	</script>
 	<header>
 		<picture>
 			<img src="logo_scheffer.png" class="logo">
@@ -83,7 +88,7 @@
 			<fieldset class="botao">
 			<label>Peso Liquido:</label>
 			<input type="number" name="Peso" class="pesagem" autocomplete="off" placeholder="Kg">	
-			<input type="submit" name="" value="Salvar">
+			<input type="submit" name="" value="Salvar" onclick="sucesso()">
 			</fieldset>
 		</form>
 	</article>
